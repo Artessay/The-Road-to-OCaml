@@ -1,0 +1,6 @@
+(executable
+ (public_name sum)
+ (name      sum)
+ (libraries base stdio)
+ ; (preprocess (pps ppx_jane))
+)
