@@ -18,10 +18,6 @@ dune innit proj <project-name>
 
 For example, `dune init proj helloworld` will help you create a project named 'helloworld'.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledge
 
 dune documentation: https://dune.readthedocs.io/en/stable/index.html
