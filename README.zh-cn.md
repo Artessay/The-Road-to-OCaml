@@ -8,15 +8,15 @@
 
 ## Start a Project
 
-Although you may see many documents mentioned that using `corebuild` to construct OCaml project is nice, it would be true some years ago. Nowadays, it will be much simpler to use `dune` to construct the whole OCaml project. And we will use dune to help build OCaml project too.
+虽然你可能在许多文档中听说过使用`corebuild`来搭建OCaml项目是一件非常棒的事，这在几年前也确实如此。但现在，使用`dune`来搭建整个OCaml项目将更加容易。我们也将使用`dune`来搭建这里的每一个项目。
 
-In order to create an project with default folder structure, you can use this command in terminal:
+为了创建一个默认dune工程目录结构的目录，你可以在终端输入以下命令:
 
 ~~~shell
 dune innit proj <project-name>
 ~~~
 
-For example, `dune init proj helloworld` will help you create a project named 'helloworld'.
+例如， `dune init proj helloworld` 将会帮助你创建一个名为'helloworld'的项目.
 
 
 
