@@ -36,7 +36,7 @@ dune test
 dune exec <project-name>
 ~~~
 
-## Defining Tests
+## Define Tests
 
 在dune文件中写下
 
@@ -51,6 +51,8 @@ dune runtest
 ~~~
 
 就可以运行测试程序。
+
+## Construct Dependency
 
 ## Clean Catalogue
 
@@ -67,3 +69,6 @@ dune clean [option]
 dune documentation: https://dune.readthedocs.io/en/stable/index.html
 
 Real World OCaml: https://dev.realworldocaml.org/
+
+ocamlyacc tutorial: https://ohama.github.io/ocaml/ocamlyacc-tutorial/
+
