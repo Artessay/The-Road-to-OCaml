@@ -16,9 +16,51 @@
 dune innit proj <project-name>
 ~~~
 
-例如， `dune init proj helloworld` 将会帮助你创建一个名为'helloworld'的项目.
+例如， `dune init proj helloworld` 将会帮助你创建一个名为'helloworld'的项目,项目自动包含默认目录结构。
 
+通过以下命令可以构建项目：
 
+~~~shell
+dune build
+~~~
+
+通过以下命令可以运行测试：
+
+~~~shell
+dune test
+~~~
+
+以下命令能够运行可执行程序：
+
+~~~shell
+dune exec <project-name>
+~~~
+
+## Defining Tests
+
+在dune文件中写下
+
+~~~
+(test (name my_test_program))
+~~~
+
+然后使用命令：
+
+~~~
+dune runtest
+~~~
+
+就可以运行测试程序。
+
+## Clean Catalogue
+
+如果要清除由dune工程构建起的如 _build, <package>.install 和 .merlin这些文件，可以使用`dune clean`命令。命令的格式如下：
+
+~~~shell
+dune clean [option]
+~~~
+
+其中具体的选项可以在相应文档中查找，这里不再做过多的赘述。
 
 ## Acknowledge
 
